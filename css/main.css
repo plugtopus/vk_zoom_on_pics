@@ -1,0 +1,76 @@
+.hzGalleryInfoCss
+{
+    position: absolute !important;
+    top: 5px !important;
+    right: 5px !important;
+    font: menu !important;
+    font-weight: bold !important;
+    color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+    text-align: center !important;
+    overflow: hidden !important;
+    vertical-align: top !important;
+    line-height: 10px !important;
+}
+.hzCaptionCss 
+{
+    font: menu;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    max-height: 27px;
+    overflow: hidden;
+    vertical-align: top;
+    line-height: 10px !important;
+
+}
+
+.progressCss {
+    opacity: 0.5;
+    position: absolute;
+    max-height: 22px;
+    max-width: 22px;
+    left: 3px;
+    top: 3px;
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+}
+
+.imgFullSizeCss {
+    opacity: 1 !important;
+    position: static;
+    height: auto;
+    width: auto;
+    left: auto;
+    top: auto;
+    max-height: none;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 !important;
+    background-size: 100% 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.hzImgCss
+{
+        border: 1px solid #e3e3e3;
+        line-height: 0;
+        overflow: hidden;
+        padding: 2px;
+        margin: 0;
+        position: absolute;
+        z-index: 2147483647;
+        border-radius: 3px;
+        background: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(#ededed), color-stop(0.5, #ffffff));
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff,EndColorStr=#ededed)";
+        background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%, #ffffff 50%);
+        -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.46);
+        -moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.46);
+        box-shadow: 3px 3px 6px #000000;
+
+    }
