@@ -8,7 +8,11 @@
       "matches": [ "http://*.vk.com/*", "https://*.vk.com/*" ],
       "run_at": "document_end"
    } ],
-   "default_locale": "ru",
+   "browser_action": {
+      "default_icon": "img/128.png",
+      "default_title": "__MSG_title__"
+   },
+   "default_locale": "en_US",
    "description": "__MSG_desc__",
    "icons": {
       "128": "img/128.png",
@@ -17,10 +21,9 @@
    },
    "manifest_version": 2,
    "name": "__MSG_name__",
+   "short_name": "__MSG_shortname__",
    "permissions": [ "webRequestBlocking", "webRequest", "storage", "cookies", "webNavigation", "tabs", "http://*/*", "https://*/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "2018.3.02.2",
-   "web_accessible_resources": [ "img/loading.gif"],
-   "author": "Plugtopus Agency",
-   "homepage_url": "https://plugtopus.agency"
+   "version": "2018.07.16.4",
+   "web_accessible_resources": [ "img/loading.gif"]
 }
